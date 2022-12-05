@@ -1,0 +1,11 @@
+${AnsiColor.BRIGHT_GREEN}
+
+                                          ,---.            ,--. ,--.          ,--.  ,--.          ,-----.
+                                         /  O  \           |  .'   /          |  ,'.|  |          |  |) /_
+                                        |  .-.  |          |  .   '           |  |' '  |          |  .-.  \
+                                        |  | |  |   .--.   |  |\   \   .--.   |  | `   |   .--.   |  '--' /
+                                        `--' `--'   '--'   `--' '--'   '--'   `--'  `--'   '--'   `------'
+
+
+${AnsiColor.YELLOW}App Name: ${AnsiColor.RED}LearningMS (v0.0.1)
+${AnsiColor.YELLOW}App Type: ${AnsiColor.RED}Spring Boot${spring-boot.formatted-version}${AnsiColor.DEFAULT}
