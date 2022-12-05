@@ -5,9 +5,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/lms_db
-    username: lms_user
-    password: rootan
+    url: jdbc:postgresql://containers-us-west-138.railway.app:7460/railway
+    username: postgres
+    password: zuEC8k22UE22MZLrSnui
     driver-class-name: org.postgresql.Driver
   jpa:
     properties:

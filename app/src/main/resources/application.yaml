@@ -3,31 +3,7 @@ rsa:
   private-key: classpath:certs/private.pem
 
 spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/lms_db
-    username: lms_user
-    password: rootan
-    driver-class-name: org.postgresql.Driver
-  jpa:
-    show-sql: true
-    hibernate:
-      ddl-auto: update
-  mail:
-    host: smtp.gmail.com
-    port: 587
-    username: akbqkb780@gmail.com
-    password: bauiubkecpadkhvy
-    properties:
-      mail:
-        smtp:
-          auth: true
-          starttls:
-            enable: true
-            required: true
-          connectiontimeout: 5000
-          timeout: 3000
-          writetimeout: 5000
-  profiles:
-    active: dev
   banner:
     location: classpath:base/banner.txt
+  profiles:
+    active: prod
